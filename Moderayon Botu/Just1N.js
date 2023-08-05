@@ -4,7 +4,7 @@ const { AoiVoice, PlayerEvents, PluginName, Cacher, Filter } = require("@akarui/
 
 //Main.js
 const bot = new AoiClient({
-    token: "token",
+    token: process.env['token'],
     prefix: ".",
     intents: ["MessageContent", "Guilds", "GuildMessages",],
     events: ["onMessage", "onInteractionCreate", "onMessageDelete",],
