@@ -1,2 +1,4 @@
 # aoijs-moderasyon-bot
-Apache Lisans ile Korunmaktadır.
+**Kurulum: npm install Yazarak Modülleri İndirebilirsiniz**
+
+**Hata Çıkarsa Kodlars Kurucularına Ulaşınız!**
