@@ -21,7 +21,7 @@ const bot = new AoiClient({
 //SoundCloud & Youtube
 const voice = new AoiVoice(bot, {
     searchOptions: {
-        youtubeClient: "UCD9NPfM1bMer1amerPRPhaA",
+        youtubeClient: "",
         youtubegl: "TR",
     },
     requestOptions: {
