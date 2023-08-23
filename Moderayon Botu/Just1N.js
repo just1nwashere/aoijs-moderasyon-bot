@@ -39,11 +39,4 @@ voice.bindExecutor(bot.functionManager.interpreter);
 
 //Komutlar Dosyası
 const loader = new LoadCommands(bot);
-loader.load(bot.cmd, "./Codlars/Komutlar/");
-
-//Gelen Giden
-bot.joinCommand({
-    channel: "1137118213717635194",
-    code: `
-    `
-});
+loader.load(bot.cmd, "./Komutlar/");
